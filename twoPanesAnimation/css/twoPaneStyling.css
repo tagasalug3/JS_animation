@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#theImage {
+    position: absolute;
+}
+
+#theImage img {
+    position: relative;
+}
+
+#leftBox {
+    width: 175px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: yellow;
+    position: absolute;
+    opacity: 0.8;
+}
+
+#leftBox p, #rightBox p {
+    font: 15px arial,sans-serif;
+    margin: 0px auto;
+    padding: 7px;
+}
+
+#rightBox {
+    width: 175px;
+    height: 30px;
+    margin-left: 175px;
+    margin-top: 150px;
+    background-color: aqua;
+    position: absolute;
+    opacity: 0.8;
+}
+
+#redBox {
+    width: 175px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    opacity: 0;
+}
+
+#tealBox {
+    width: 175px;
+    height: 150px;
+    background-color: teal;
+    position: relative;
+}
